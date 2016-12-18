@@ -1,0 +1,60 @@
+print abandon all productivity ye who program here!!
+
+Object subclass Bar
+Bar print
+#Make sure subclassing worked
+Bar addClassVar x 411
+Bar addClassMethod print print; print;
+Bar print x
+
+#should print twice show overload
+Bar new test
+
+
+#show instance creation
+print testing instance...
+test print
+test addInstanceVar y niceOne
+
+#This will test variable access
+#
+test addInstanceMethod print print; print; print;
+
+#
+#this should print thrice
+#keep in mind you have to pass whatever variable
+#you want to be used, so if you want to access
+#some class variable pass its name as an arg
+
+test print y
+
+#Now to test basic Operations
+
+print Do basic math
+
+print add 4 4
+assign a add 4 4
+print a
+
+print subtract a 3
+assign a subtract a 3
+print a
+
+print multiply a 100
+assign a multiply a 100
+print a
+
+print divide a 5
+assign a divide a 5
+print a
+
+print now for string operations
+
+assign a strConcat hello friend
+print a 
+
+assign a strComp a  no
+print a
+
+print now you're speaking my language
+
